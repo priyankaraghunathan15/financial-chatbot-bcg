@@ -86,7 +86,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 ## 📂 Repository Structure
 
 ```
-├── app_dynamic.py                  # Flask chatbot with dynamic financial logic
+├── app.py                  # Flask chatbot with dynamic financial logic
 ├── Company_Financial_data_2022_2024.csv  # Cleaned financial dataset (manual extraction)
 ├── financial_analysis.ipynb        # Jupyter notebook with trend analysis
 ├── README.md                       # Project documentation
@@ -118,7 +118,7 @@ pip install flask pandas
 
 3. Run the chatbot:
 ```bash
-python app_dynamic.py
+python app.py
 ```
 
 4. Open browser and go to:
