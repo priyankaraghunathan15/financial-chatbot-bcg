@@ -90,6 +90,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 ├── Company_Financial_data_2022_2024.csv  # Cleaned financial dataset (manual extraction)
 ├── financial_analysis.ipynb        # Jupyter notebook with trend analysis
 ├── README.md                       # Project documentation
+├── Certificate.pdf                       # Certification
 ```
 
 ---
