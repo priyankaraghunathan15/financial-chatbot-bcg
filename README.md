@@ -137,4 +137,10 @@ This project demonstrates how GenAI concepts can be applied in finance consultin
 
 ---
 
+## 🧾 Conclusion
+
+This project demonstrates how conversational AI can be applied to financial analysis by combining structured data with intuitive user interaction. By integrating Flask, pandas, and manually extracted 10-K data, the chatbot prototype successfully delivers accurate insights on key financial metrics like revenue, profit margin, ROA, and ROE.
+
+While currently limited to three companies and a fixed date range, this prototype lays the groundwork for scalable, data-driven solutions that could transform how financial institutions interact with corporate performance data.
+
 
