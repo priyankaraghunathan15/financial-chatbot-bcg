@@ -1,5 +1,5 @@
 
-# 💬 Rule-Based NLP Financial Chatbot (BCG GenAI)
+# Rule-Based NLP Financial Chatbot (BCG GenAI)
 
 This repository contains a dynamic financial analysis chatbot developed as part of a consulting simulation at **Boston Consulting Group (BCG)** within the **GenAI Consulting Team**. The chatbot analyzes financial data from 10-K filings for Apple, Microsoft, and Tesla (2022–2024) and responds to natural language queries with accurate, data-driven insights.
 
@@ -10,13 +10,13 @@ This repository contains a dynamic financial analysis chatbot developed as part 
 
 ---
 
-## 🧠 Project Context
+## Project Context
 
 Global Finance Corp. (GFC), a leading financial institution, has partnered with BCG to modernize their approach to analyzing corporate financial performance. As part of the GenAI Consulting team, this prototype was developed to showcase how conversational AI can make 10-K and 10-Q financial reports more accessible, faster to interpret, and easier to scale.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Extract and analyze 10-K data for Apple, Microsoft, and Tesla (2022–2024).
 - Develop a Flask-based chatbot capable of responding to financial queries.
@@ -25,7 +25,7 @@ Global Finance Corp. (GFC), a leading financial institution, has partnered with 
 
 ---
 
-## 🗃️ Data Extraction
+## Data Extraction
 
 Financial metrics were manually extracted from SEC EDGAR 10-K filings:
 - Total Revenue
@@ -38,7 +38,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 - **Python**
 - **Pandas** – for financial data handling and trend analysis
@@ -48,7 +48,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## 🤖 Features
+## Features
 
 - Accepts user queries in natural language (e.g. "What is Tesla's ROE in 2024?")
 - Calculates:
@@ -62,7 +62,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## 💬 Sample Supported Queries
+## Sample Supported Queries
 
 | Example Query                                 | Interpreted As                     |
 |----------------------------------------------|------------------------------------|
@@ -74,7 +74,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## 🚧 Limitations
+## Limitations
 
 - Currently supports only **Apple**, **Microsoft**, and **Tesla**
 - Limited to **2022–2024** fiscal years
@@ -83,7 +83,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ├── app.py                  # Flask chatbot with dynamic financial logic
@@ -95,7 +95,7 @@ Stored in: `Company_Financial_data_2022_2024.csv`
 
 ---
 
-## 📈 Insights from Data
+## Insights from Data
 
 In `financial_analysis.ipynb`, we used pandas to:
 - Calculate YoY growth in revenue and net income
@@ -104,7 +104,7 @@ In `financial_analysis.ipynb`, we used pandas to:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 ```bash
@@ -129,7 +129,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 🏁 Outcome
+## Outcome
 
 This project demonstrates how GenAI concepts can be applied in finance consulting to:
 - Automate financial document interpretation
@@ -138,7 +138,7 @@ This project demonstrates how GenAI concepts can be applied in finance consultin
 
 ---
 
-## 🧾 Conclusion
+## Conclusion
 
 This project demonstrates how conversational AI can be applied to financial analysis by combining structured data with intuitive user interaction. By integrating Flask, pandas, and manually extracted 10-K data, the chatbot prototype successfully delivers accurate insights on key financial metrics like revenue, profit margin, ROA, and ROE.
 
