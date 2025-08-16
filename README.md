@@ -1,5 +1,9 @@
 
+<div align="center">
+
 # Rule-Based NLP Financial Chatbot (BCG GenAI)
+
+</div>
 
 This repository contains a dynamic financial analysis chatbot developed as part of a consulting simulation at **Boston Consulting Group (BCG)** within the **GenAI Consulting Team**. The chatbot analyzes financial data from 10-K filings for Apple, Microsoft, and Tesla (2022–2024) and responds to natural language queries with accurate, data-driven insights.
 
